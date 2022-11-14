@@ -41,6 +41,8 @@ spring-boot-jwt/
  ├── src/main/resources/
  │   └── application.yml
 
+```
+
 **JwtTokenFilterConfigurer**
 
 Adiciona o `JwtTokenFilter` ao `DefaultSecurityFilterChain` da segurança de inicialização por mola.
@@ -139,3 +141,4 @@ $ curl -X GET http://localhost:8080/users/me -H 'Autorização: Portador <JWT_TO
     "ROLE_ADMIN"
   ]
 }
+```
