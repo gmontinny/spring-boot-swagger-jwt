@@ -1,7 +1,7 @@
 # Estrutura do Projeto
 
 ```
-spring-boot-jwt/
+spring-boot-swagger-jwt/
  │
  ├── src/main/java/
  │   └── gmontinny/jwt
