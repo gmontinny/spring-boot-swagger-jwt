@@ -90,7 +90,7 @@ $ git clone https://github.com/<seu-usuário>/spring-boot-jwt
 3. Navegue até a pasta
 
 ```
-$ cd spring-boot-jwt
+$ cd spring-boot-swagger-jwt
 ```
 
 4. Instale as dependências
