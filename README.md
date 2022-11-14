@@ -68,14 +68,14 @@ Ele é usado pelo `DaoAuthenticationProvider` para carregar detalhes sobre o usu
 
 **WebSecurityConfig**
 
-A classe `WebSecurityConfig` estende `WebSecurityConfigurerAdapter` para fornecer configuração de segurança personalizada.
+A classe `WebSecurityConfig` fornecer configuração de segurança personalizada.
 
 Os seguintes beans são configurados e instanciados nesta classe:
 
 1. `JwtTokenFilter`
 3. `Codificador de Senha`
 
-Além disso, dentro do método `WebSecurityConfig#configure(HttpSecurity http)` vamos configurar padrões para definir endpoints de API protegidos/desprotegidos. Observe que desabilitamos a proteção CSRF porque não estamos usando cookies.
+Além disso, dentro do método `WebSecurityConfig#filterChain(HttpSecurity http)` vamos configurar padrões para definir endpoints de API protegidos/desprotegidos. Observe que desabilitamos a proteção CSRF porque não estamos usando cookies.
 
 # Como usar este código?
 
