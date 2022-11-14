@@ -45,7 +45,7 @@ spring-boot-jwt/
 
 **JwtTokenFilterConfigurer**
 
-Adiciona o `JwtTokenFilter` ao `DefaultSecurityFilterChain` da segurança de inicialização por mola.
+Adiciona o `JwtTokenFilter` ao `DefaultSecurityFilterChain` do Spring Boot Security.
 
 ```java
 JwtTokenFilter customFilter = new JwtTokenFilter(jwtTokenProvider);
