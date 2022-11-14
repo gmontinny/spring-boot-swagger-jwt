@@ -127,7 +127,7 @@ $ curl -X POST 'http://localhost:8080/users/signin?username=admin&password=admin
 9. Adicione o token JWT como um parâmetro Header e faça a solicitação GET inicial para `/users/me` novamente
 
 ```
-$ curl -X GET http://localhost:8080/users/me -H 'Autorização: Portador <JWT_TOKEN>'
+$ curl -X GET http://localhost:8080/users/me -H 'Authorization: Bearer <JWT_TOKEN>'
 ```
 
 10. E é isso, parabéns! Você deve obter uma resposta semelhante a esta, o que significa que agora você está autenticado
