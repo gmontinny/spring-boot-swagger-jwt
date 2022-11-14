@@ -4,7 +4,7 @@
 spring-boot-swagger-jwt/
  │
  ├── src/main/java/
- │   └── gmontinny/jwt
+ │   └── com/gmontinny/jwt
  │       ├── configuration
  │       │   └── SwaggerConfig.java
  │       │
