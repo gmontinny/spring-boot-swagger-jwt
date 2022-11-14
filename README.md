@@ -73,7 +73,7 @@ A classe `WebSecurityConfig` fornecer configuração de segurança personalizada
 Os seguintes beans são configurados e instanciados nesta classe:
 
 1. `JwtTokenFilter`
-3. `Codificador de Senha`
+3. `PasswordEncoder`
 
 Além disso, dentro do método `WebSecurityConfig#filterChain(HttpSecurity http)` vamos configurar padrões para definir endpoints de API protegidos/desprotegidos. Observe que desabilitamos a proteção CSRF porque não estamos usando cookies.
 
